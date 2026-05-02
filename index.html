@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Universe | Virtual Space Portfolio</title>
+    <!-- Modern Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Theme Toggle (Bonus) -->
+    <input type="checkbox" id="theme-toggle" class="theme-toggle-checkbox">
+    
+    <div class="app-container">
+        <!-- Starfield Background -->
+        <div class="stars"></div>
+        <div class="stars2"></div>
+        <div class="stars3"></div>
+        <div class="shooting-star"></div>
+
+        <!-- Navigation (Spaceship Control Panel) -->
+        <nav class="navbar">
+            <div class="logo">🌌 GALAXY</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <label for="theme-toggle" class="theme-btn">Light/Dark</label>
+        </nav>
+
+        <main>
+            <!-- 1. Landing Section -->
+            <section id="home" class="fullscreen-section parallax">
+                <div class="hero-content">
+                    <h1 class="neon-text">Welcome to My Universe</h1>
+                    <h2 class="subtitle">Space Explorer & Web Developer</h2>
+                    <div class="floating-orbs">
+                        <div class="orb orb1"></div>
+                        <div class="orb orb2"></div>
+                    </div>
+                    <a href="#about" class="cta-button glow-effect">Explore Galaxy</a>
+                </div>
+            </section>
+
+            <!-- 2. About Me (Planet 1) -->
+            <section id="about" class="planet-section">
+                <h2 class="section-title">About Me</h2>
+                <div class="planet-card glassmorphism">
+                    <div class="profile-planet">
+                        <!-- Simulated profile image as a planet -->
+                    </div>
+                    <div class="bio-content">
+                        <h3>Commander's Log</h3>
+                        <p>Greetings, traveler! I am a passionate developer traversing the digital cosmos. I craft elegant and efficient solutions that bring ideas to life. Welcome to my digital galaxy.</p>
+                        <ul class="timeline">
+                            <li>🚀 Launched into code in 2020</li>
+                            <li>🪐 Explored Front-end Galaxies</li>
+                            <li>🌠 Mastered Full-Stack Nebulas</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. Skills (Planet 2) -->
+            <section id="skills" class="skills-section">
+                <h2 class="section-title">Tech Arsenal</h2>
+                <div class="solar-system">
+                    <div class="sun">Core</div>
+                    <div class="orbit html-orbit">
+                        <div class="planet skill-planet html-planet">HTML</div>
+                    </div>
+                    <div class="orbit css-orbit">
+                        <div class="planet skill-planet css-planet">CSS</div>
+                    </div>
+                    <div class="orbit js-orbit">
+                        <div class="planet skill-planet js-planet">JS</div>
+                    </div>
+                    <div class="orbit python-orbit">
+                        <div class="planet skill-planet python-planet">PY</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. Projects (Planet 3) -->
+            <section id="projects" class="projects-section">
+                <h2 class="section-title">Constellations (Projects)</h2>
+                <div class="project-grid">
+                    <div class="project-card glassmorphism float-hover">
+                        <div class="project-mini-planet p1"></div>
+                        <h3>Nebula Chat</h3>
+                        <p>Real-time messaging application with encrypted channels.</p>
+                    </div>
+                    <div class="project-card glassmorphism float-hover">
+                        <div class="project-mini-planet p2"></div>
+                        <h3>Starlight Tracker</h3>
+                        <p>Task management system with gamified productivity features.</p>
+                    </div>
+                    <div class="project-card glassmorphism float-hover">
+                        <div class="project-mini-planet p3"></div>
+                        <h3>Void Commerce</h3>
+                        <p>E-commerce platform specialized in digital assets.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 5. Achievements (Asteroid Belt) -->
+            <section id="achievements" class="achievements-section">
+                <h2 class="section-title">Asteroid Belt (Achievements)</h2>
+                <div class="asteroid-field">
+                    <div class="asteroid badge float-hover">🏆 Best UI Design 2023</div>
+                    <div class="asteroid badge float-hover">🏅 Hackathon Winner</div>
+                    <div class="asteroid badge float-hover">⭐ 500+ Commits</div>
+                    <div class="asteroid badge float-hover">🚀 Open Source Contributor</div>
+                </div>
+            </section>
+
+            <!-- 6. Contact (Space Station) -->
+            <section id="contact" class="contact-section">
+                <h2 class="section-title">Space Station Communications</h2>
+                <div class="console-panel glassmorphism">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Alias (Name)</label>
+                            <input type="text" id="name" required placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Frequency (Email)</label>
+                            <input type="email" id="email" required placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Transmission (Message)</label>
+                            <textarea id="message" rows="5" required placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn glow-effect">Send Transmission</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2026 Virtual Space Portfolio. All systems nominal.</p>
+        </footer>
+    </div>
+</body>
+</html>
